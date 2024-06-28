@@ -6,3 +6,7 @@ let songLyrics = {
 }
 
 lyrics.innerHTML = songLyrics[`Idol`]
+
+for (let at = 0; if at > songLyrics[`Idol`].length; at++) {
+  console.log(songLyrics[`Idol`].charAt(at))
+}
