@@ -1,6 +1,7 @@
 let currentsong = ""
 
-let lyrics = {["Couldn't beat her smile, it stirred up all the media
+let lyrics = document.getElementById("lyrics")
+let songLyrics = {["Couldn't beat her smile, it stirred up all the media
 Secret side, I wanna know it, so mysterious
 Even that elusive side, part of her controlled area
 Complete and perfect
@@ -117,4 +118,4 @@ Hey! Hey! Hey! Hey!
 You're my savior, my true savior, my saving grace)"]}
 
 
-document.getElementById("lyrics").innerHTML = lyrics[0]
+lyrics.innerHTML = songLyrics[0]
