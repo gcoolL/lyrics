@@ -117,4 +117,4 @@ Hey! Hey! Hey! Hey!
 You're my savior, my true savior, my saving grace)"]}
 
 
-
+document.getElementById("lyrics").innerHTML = lyrics[0]
